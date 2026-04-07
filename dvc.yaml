@@ -1,0 +1,11 @@
+stages:
+  entrenar:
+    cmd: python mlops.py
+    deps:
+      - mlops.py
+      - mun_covid_se30.csv
+    metrics:
+      - metrics.json:
+          cache: false
+    outs:
+      - modelos/

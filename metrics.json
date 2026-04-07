@@ -1,0 +1,12 @@
+{
+  "rf_clasificacion_v1": {
+    "accuracy": 0.9908536585365854
+  },
+  "rf_clasificacion_v2": {
+    "accuracy": 1.0
+  },
+  "rf_regresion": {
+    "r2": 0.9695670908406683,
+    "mae": 22.39823170731707
+  }
+}
